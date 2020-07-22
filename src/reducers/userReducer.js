@@ -1,7 +1,7 @@
 export default (state = [], action) => {
     //в reducer най-често се ползва switch
     switch (action.type) {
-        case 'FETCH_USER':
+        case 'FETCH_USERS':
             return [...state, action.payload];
         default:
             return state;
